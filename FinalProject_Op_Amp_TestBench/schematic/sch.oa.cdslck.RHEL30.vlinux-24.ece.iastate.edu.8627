@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      lenz
+HostName                       vlinux-24.ece.iastate.edu
+ProcessIdentifier              8627
+ProcessCreationTime_UTC        1619226898
+ProcessCreationTime_Readable   Fri Apr 23 20:14:58 2021 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/lenz/ee330/lablib/FinalProject_Op_Amp_TestBench/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Apr 23 20:36:36 2021 CDT
