@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      lenz
+HostName                       vlinux-32.ece.iastate.edu
+ProcessIdentifier              25998
+ProcessCreationTime_UTC        1619386912
+ProcessCreationTime_Readable   Sun Apr 25 16:41:52 2021 CDT
+AppIdentifier                  /usr/local/cadence/ic/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/lenz/ee330/lablib/FinalProject_Op_Amp_TestBench/maestro/maestro.sdb
+TimeEditLocked                 Sun Apr 25 17:13:22 2021 CDT
