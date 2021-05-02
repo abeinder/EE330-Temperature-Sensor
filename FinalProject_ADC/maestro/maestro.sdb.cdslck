@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      lenz
-HostName                       vlinux-03.ece.iastate.edu
-ProcessIdentifier              31710
-ProcessCreationTime_UTC        1619882593
-ProcessCreationTime_Readable   Sat May  1 10:23:13 2021 CDT
+LoginName                      abeinder
+HostName                       vlinux-15.ece.iastate.edu
+ProcessIdentifier              22181
+ProcessCreationTime_UTC        1619902113
+ProcessCreationTime_Readable   Sat May  1 15:48:33 2021 CDT
 AppIdentifier                  /usr/local/cadence/ic/tools/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       
-FilePathUsedToEditLock         /home/lenz/ee330/lablib/FinalProject_ADC/maestro/maestro.sdb
-TimeEditLocked                 Sat May  1 10:40:02 2021 CDT
+FilePathUsedToEditLock         /home/abeinder/ee330/lablib/FinalProject_ADC/maestro/maestro.sdb
+TimeEditLocked                 Sat May  1 20:47:37 2021 CDT

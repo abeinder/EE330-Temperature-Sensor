@@ -1,13 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat May  1 20:49:15 2021 
+Current time: Sat May  1 15:56:56 2021 
 Best design point: 1
 Design specs: 
 	lablib:FinalProject_ADC:1	corner	Nominal - 
 Design parameters: 
 
-ExplorerRun.0
+Interactive.0
 Number of points completed: 1
 Number of simulation errors: 0
-ExplorerRun.0 completed. 
-Current time: Sat May  1 20:49:18 2021 
+Interactive.0 completed. 
+Current time: Sat May  1 15:57:02 2021 
