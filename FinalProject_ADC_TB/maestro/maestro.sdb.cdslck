@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      abeinder
+HostName                       vlinux-10.ece.iastate.edu
+ProcessIdentifier              9186
+ProcessCreationTime_UTC        1619996208
+ProcessCreationTime_Readable   Sun May  2 17:56:48 2021 CDT
+AppIdentifier                  /usr/local/cadence/ic/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/abeinder/ee330/lablib/FinalProject_ADC_TB/maestro/maestro.sdb
+TimeEditLocked                 Sun May  2 19:45:58 2021 CDT

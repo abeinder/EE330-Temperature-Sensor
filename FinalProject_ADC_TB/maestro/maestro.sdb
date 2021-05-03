@@ -14,11 +14,11 @@
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test enabled="1">lablib:FinalProject_ADC:1
+			<test enabled="1">lablib:FinalProject_ADC_TB:1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>FinalProject_ADC</value>
+						<value>FinalProject_ADC_TB</value>
 					</option>
 					<option>lib
 						<value>lablib</value>
@@ -38,7 +38,7 @@
 				</tooloptions>
 				<origoptions>
 					<option>cell
-						<value>FinalProject_ADC</value>
+						<value>FinalProject_ADC_TB</value>
 					</option>
 					<option>lib
 						<value>lablib</value>
@@ -51,22 +51,7 @@
 					</option>
 				</origoptions>
 				<vars>
-					<var>C
-						<value>1u</value>
-					</var>
-					<var>R
-						<value>100k</value>
-					</var>
 					<var>Vin
-						<value>740m</value>
-					</var>
-					<var>Vrefx
-						<value>.1m</value>
-					</var>
-					<var>V
-						<value></value>
-					</var>
-					<var>F
 						<value></value>
 					</var>
 				</vars>
@@ -74,7 +59,7 @@
 		</tests>
 		<disabledtests></disabledtests>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">lablib:FinalProject_ADC:1</test>
+			<test netlist="0" netlistscope="all">lablib:FinalProject_ADC_TB:1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -98,16 +83,10 @@
 			<plottingoption>defaultplottingtemplate
 				<value></value>
 			</plottingoption>
-			<plottingoption>autoplotmode
-				<value>Replace</value>
-			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
-			</exploreroption>
-			<exploreroption>autoplotmode
-				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -116,151 +95,8 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-		<incrementalsimulationoptions>
-			<incrementalSimulation>0</incrementalSimulation>
-		</incrementalsimulationoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">lablib:FinalProject_ADC:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>FinalProject_ADC</value>
-							</option>
-							<option>lib
-								<value>lablib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>Interactive.0</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>FinalProject_ADC</value>
-							</option>
-							<option>lib
-								<value>lablib</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<vars>
-							<var>C
-								<value>1u</value>
-							</var>
-							<var>R
-								<value>100k</value>
-							</var>
-							<var>Vin
-								<value>-.1m</value>
-							</var>
-							<var>Vrefx
-								<value>.1m</value>
-							</var>
-							<var>v
-								<value></value>
-							</var>
-							<var>V
-								<value></value>
-							</var>
-						</vars>
-					</test>
-				</tests>
-				<disabledtests></disabledtests>
-				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">lablib:FinalProject_ADC:1</test>
-				</checksasserts>
-				<plottingoptions>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>autoplotmode
-						<value>Replace</value>
-					</plottingoption>
-				</plottingoptions>
-				<exploreroptions>
-					<exploreroption>waveformtemplate
-						<value>(None)</value>
-					</exploreroption>
-					<exploreroption>autoplotmode
-						<value>Replace</value>
-					</exploreroption>
-				</exploreroptions>
-				<incrementalsimsetup>
-					<useincremental>0</useincremental>
-					<reusenetlist>0</reusenetlist>
-					<copyreferenceresults>1</copyreferenceresults>
-				</incrementalsimsetup>
-				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>May 1 15:56:56 2021</timestamp>
-			<uuid>{acba2514-e3d7-476c-ab6d-d33339534417}</uuid>
-			<resultsname>/home/abeinder/ee330/lablib/FinalProject_ADC/maestro/results/maestro/Interactive.0.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vlinux-15.ece.iastate.edu_abeinder_155656132</localpsfdir>
-			<psfdir>/local/abeinder/simulation/lablib/FinalProject_ADC/maestro/results/maestro/Interactive.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/lablib/FinalProject_ADC/maestro/results/maestro/Interactive.0</simdir>
-			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/abeinder/ee330/lablib/FinalProject_ADC/maestro/results/maestro/Interactive.0.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
 			<checkpoint>
 				<corners>
@@ -276,11 +112,11 @@
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test enabled="1">lablib:FinalProject_ADC:1
+					<test enabled="1">lablib:FinalProject_ADC_TB:1
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
-								<value>FinalProject_ADC</value>
+								<value>FinalProject_ADC_TB</value>
 							</option>
 							<option>lib
 								<value>lablib</value>
@@ -300,7 +136,7 @@
 						</tooloptions>
 						<origoptions>
 							<option>cell
-								<value>FinalProject_ADC</value>
+								<value>FinalProject_ADC_TB</value>
 							</option>
 							<option>lib
 								<value>lablib</value>
@@ -313,22 +149,7 @@
 							</option>
 						</origoptions>
 						<vars>
-							<var>C
-								<value>1u</value>
-							</var>
-							<var>R
-								<value>100k</value>
-							</var>
 							<var>Vin
-								<value>740m</value>
-							</var>
-							<var>Vrefx
-								<value>.1m</value>
-							</var>
-							<var>V
-								<value></value>
-							</var>
-							<var>F
 								<value></value>
 							</var>
 						</vars>
@@ -336,7 +157,7 @@
 				</tests>
 				<disabledtests></disabledtests>
 				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">lablib:FinalProject_ADC:1</test>
+					<test netlist="0" netlistscope="all">lablib:FinalProject_ADC_TB:1</test>
 				</checksasserts>
 				<plottingoptions>
 					<plottingoption>plottype
@@ -416,9 +237,6 @@
 					<exploreroption>waveformtemplate
 						<value>(None)</value>
 					</exploreroption>
-					<exploreroption>autoplotmode
-						<value>Replace</value>
-					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
 					<useincremental>0</useincremental>
@@ -426,30 +244,27 @@
 					<copyreferenceresults>1</copyreferenceresults>
 				</incrementalsimsetup>
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
-				<incrementalsimulationoptions>
-					<incrementalSimulation>0</incrementalSimulation>
-				</incrementalsimulationoptions>
 				<runnabletests>
-					<test>lablib:FinalProject_ADC:1</test>
+					<test>lablib:FinalProject_ADC_TB:1</test>
 				</runnabletests>
 				<vars></vars>
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>May 2 18:38:40 2021</timestamp>
-			<uuid>{7db82356-45a0-45d9-836d-bfe053eb2f65}</uuid>
-			<resultsname>/home/abeinder/ee330/lablib/FinalProject_ADC/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>May 2 19:52:20 2021</timestamp>
+			<uuid>{24166dab-9051-44d3-8ab1-245685beb598}</uuid>
+			<resultsname>/home/abeinder/ee330/lablib/FinalProject_ADC_TB/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vlinux-10.ece.iastate.edu_abeinder_183840176</localpsfdir>
-			<psfdir>/local/abeinder/simulation/lablib/FinalProject_ADC/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/lablib/FinalProject_ADC/maestro/results/maestro/ExplorerRun.0</simdir>
+			<localpsfdir>/tmp/vlinux-10.ece.iastate.edu_abeinder_195220400</localpsfdir>
+			<psfdir>/local/abeinder/simulation/lablib/FinalProject_ADC_TB/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/lablib/FinalProject_ADC_TB/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/abeinder/ee330/lablib/FinalProject_ADC/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlog>/home/abeinder/ee330/lablib/FinalProject_ADC_TB/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
